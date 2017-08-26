@@ -1,0 +1,16 @@
+<div id="wrapper">
+  <div id="articles">
+  	{{#each topics}}
+  		<div class="card border-secondary mb-3" >
+			<div class="card-body">
+				<h4 class="card-header">{{this.title}}</h4>
+				<p class="card-text">{{this.link}}</p>
+				<form action="/save/{{this._id}}" method="POST">
+					<button class="btn btn-success article-btn">SAVE ARTICLE</button>
+				</form>
+			</div>
+		</div>
+  	{{/each}}
+  </div>
+  <div id="notes"></div>
+</div>

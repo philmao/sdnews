@@ -1,0 +1,10 @@
+<div id="wrapper">
+  <div id="articles">
+  	{{#each topics}}
+  		<p data-id={{this._id}}>{{this.title}}<br>{{this.link}}</p>
+  	{{/each}}
+  </div>
+  <div id="notes"></div>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="app.js"></script>

@@ -1,0 +1,57 @@
+.scraper-nav {
+	background: deepskyblue;
+}
+
+.navbar-brand {
+	color: white;
+
+}
+
+div.header {
+    height: 450px;
+    padding-top: 150px;
+}
+
+.scraper-header {
+    background-image: url('../img/stars-pexel.jpg');
+    background-position: center;
+}
+
+.scraper-title {
+    color: white;
+    font-size: 400%;
+    font-family: "Times New Roman", Georgia, Serif;
+}
+
+.scraper-subtitle {
+    color: white;
+    font-family: "Times New Roman", Georgia, Serif;
+}
+
+.article-btn {
+	margin: 10px 10px;
+}
+
+.no-saved-articles {
+	background-color: orange;
+	color: white;
+	text-align: center;
+}
+
+.card-header {
+	background-color: deepskyblue;
+	color: white;
+}
+
+.card-text {
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+.btn-info {
+	background-color: mediumorchid;
+}
+
+.modal-header {
+	
+}
